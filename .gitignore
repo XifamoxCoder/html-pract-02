@@ -24,4 +24,5 @@ node_modules
 *.sw?
 
 # css
-scss
+
+main.css.map
