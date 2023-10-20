@@ -1,3 +1,8 @@
+import { mask } from './src/libs/phoneMask/mask.js'
+import {onYouTubeIframeAPIReady} from './src/libs/youtubeLightbox/youtubeLightbox.js'
+
+import './src/scss/main.scss'
+
 const navBtn = document.querySelector('.nav-icon-btn')
 const navIcon = document.querySelector('.nav-icon')
 const nav = document.querySelector('.header__top-row')
@@ -21,6 +26,8 @@ phoneInputs.forEach((input)=>{
         if (input.value == '+') input.value = '';
     })
 });
+
+onYouTubeIframeAPIReady();
 
 ymaps.ready(init);
 function init(){

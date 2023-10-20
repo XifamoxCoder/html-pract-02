@@ -1,4 +1,4 @@
-const maskList = [
+export const maskList = [
     { "code": "+247 ####" },
     { "code": "+290 ####" },
     { "code": "+290 ####" },

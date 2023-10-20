@@ -1,4 +1,6 @@
-const mask = (selector) => {
+import { maskList } from './mask_list.js'
+
+export const mask = (selector) => {
     function setMask() {
         let matrix = '+###############';
 

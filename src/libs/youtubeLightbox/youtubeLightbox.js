@@ -1,4 +1,10 @@
-// ! Селектор для ссылок - на которых нужно вызывать youtubeLightbox
+import './youtubeLightbox.css'
+
+// define onYouTubeIframeAPIReady() function and initialize lightbox when API is ready
+export function onYouTubeIframeAPIReady() {
+	createlightbox();
+}
+
 const linksBtnsSelector = 'a[data-youtubeLightbox]';
 // const linksBtnsSelector = '.lightbox';
 
@@ -34,11 +40,6 @@ youtubelightbox
 		},
 		false
 	);
-
-// define onYouTubeIframeAPIReady() function and initialize lightbox when API is ready
-function onYouTubeIframeAPIReady() {
-	createlightbox();
-}
 
 // Extracts the Youtube video ID from a well formed Youtube URL
 function getyoutubeid(link) {
