@@ -1,0 +1,21 @@
+// Base
+@import 'src/scss/base/reset';
+@import 'src/scss/base/vars';
+@import 'src/scss/base/base';
+@import 'src/scss/base/mixins';
+
+// Blocks
+@import 'src/scss/blocks/header';
+@import 'src/scss/blocks/nav';
+@import 'src/scss/blocks/nav-icon';
+@import 'src/scss/blocks/info';
+@import 'src/scss/blocks/benefits';
+@import 'src/scss/blocks/apartments';
+@import 'src/scss/blocks/card';
+@import 'src/scss/blocks/cta';
+@import 'src/scss/blocks/form';
+@import 'src/scss/blocks/video';
+@import 'src/scss/blocks/section-map';
+@import 'src/scss/blocks/feedback';
+@import 'src/scss/blocks/footer';
+@import 'src/scss/blocks/yandex-map';
